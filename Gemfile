@@ -11,10 +11,9 @@ gem 'attribute_normalizer', '~> 1.2.0.b' # Attribute normalization. TODO: Check 
 gem 'active_storage_validations', '~> 0.9' # Better validations for active_storage.
 gem 'fastimage', '~> 2.1'
 gem 'image_processing', '~> 1.12' # Gem to support variants in ActiveStorage
-
+gem 'mimemagic','>= 0.3.7'
 # Use Webpack to manage app-like JavaScript modules in Rails.
 gem 'webpacker', '~> 5.2'
-
 gem 'coffee-rails', '~> 5.0.0' # Coffeescript on Rails.
 gem 'devise', '~> 4.7', '>= 4.7.1' # User auth library.
 gem 'jbuilder', '~> 2.6' # Standard part of Rails, but unused, since we don't have an API.
